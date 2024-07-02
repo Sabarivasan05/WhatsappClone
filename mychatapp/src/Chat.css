@@ -1,0 +1,82 @@
+.Chat{
+    display: flex;
+    flex-direction: column;
+    flex:1.55;
+}
+.chatheader{
+    display:flex;
+    padding:20px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+/* .chatheader_right{
+    margin-left: 550px;
+} */
+.chat_headerinfo{
+    flex:1;
+    padding-left: 20px;
+}
+.chat_headerinfo >p{
+    color: gray;
+}
+.chat_headerinfo>h3{
+    margin-bottom:3px;
+    font-weight:500;
+}
+.chatbody{
+    flex:1;
+    background-image: url("https://w0.peakpx.com/wallpaper/744/548/HD-wallpaper-whatsapp-ma-doodle-pattern-thumbnail.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}    
+.chatmessage{
+    position: relative;
+    font-size: 16px;
+    padding:10px;
+    width: fit-content;
+    border-radius: 8px;
+    background-color: rgb(243, 245, 247);
+    margin-bottom: 30px;
+}
+.chat_name{
+    position: absolute;
+    top:-15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+.timestamp{
+    color: gray;
+    margin-left: 9px;
+    font-size: xx-small;
+}
+.chatreciever{
+    margin-left: auto;
+    background-color: #dcf8c6;;
+}
+.chatfooter>.MuiSvgIcon-root{
+    color: gray;
+    padding: 10px;
+}
+.chatfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:62px;
+    border-top: 1px solid grey;
+
+}
+.chatfooter> form{
+    flex: 1;
+    display: flex;
+}
+ .chatfooter>form>input{
+    flex:1;
+    border-radius: 30px;
+    padding: 10px;
+    border:none;
+ }
+ .chatfooter>form>button{
+    display: none;
+ }
